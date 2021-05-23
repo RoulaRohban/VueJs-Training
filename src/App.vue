@@ -2,6 +2,8 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
+      <router-link to="/posts">Posts</router-link> |
+      <router-link to="/add" class="nav-item nav-link">Add Post</router-link>|
       <router-link to="/about">About</router-link>
     </div>
     <router-view/>
